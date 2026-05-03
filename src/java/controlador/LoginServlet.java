@@ -34,7 +34,7 @@ public class LoginServlet extends HttpServlet {
     /** Redireccionamiento por rol después del login */
     private static final Map<String, String> RUTA_POR_ROL = new HashMap<>();
     static {
-        RUTA_POR_ROL.put("ADMINISTRADOR",   "/dashboard");
+        RUTA_POR_ROL.put("ADMINISTRADOR",   "/gestion-usuarios");
         RUTA_POR_ROL.put("JEFE_ALMACEN",    "/dashboard");
         RUTA_POR_ROL.put("JEFE_PRODUCCION", "/dashboard");
         RUTA_POR_ROL.put("TIZADOR",         "/dashboard");
