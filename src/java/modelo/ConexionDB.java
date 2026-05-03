@@ -10,9 +10,9 @@ import java.sql.SQLException;
  */
 public class ConexionDB {
 
-    private static final String URL    = "jdbc:mysql://127.0.0.1:3306/textil_db?useSSL=false&serverTimezone=America/Lima&allowPublicKeyRetrieval=true";
-    private static final String USUARIO = "root";       // Cambia por tu usuario MySQL
-    private static final String CLAVE   = "123456";   // Cambia por tu contraseña MySQL
+    private static final String URL    = "mysql://avnadmin:AVNS_7HDn1mf6DN66-Am2Fh-@mysql-20b5e879-gabriellozano176-4915.l.aivencloud.com:13428/defaultdb?ssl-mode=REQUIRED";
+    private static final String USUARIO = "avnadmin";       // Cambia por tu usuario MySQL
+    private static final String CLAVE   = "AVNS_7HDn1mf6DN66-Am2Fh-";   // Cambia por tu contraseña MySQL
 
     private ConexionDB() {}
 
