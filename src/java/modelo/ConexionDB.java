@@ -10,7 +10,7 @@ import java.sql.SQLException;
 public class ConexionDB {
 
     // URL corregida al formato JDBC para Java
-    private static final String URL = "jdbc:mysql://mysql-20b5e879-gabriellozano176-4915.l.aivencloud.com:13428/defaultdb?sslMode=REQUIRED";
+    private static final String URL = "jdbc:mysql://mysql-20b5e879-gabriellozano176-4915.l.aivencloud.com:13428/textil_db?sslMode=REQUIRED";
     private static final String USUARIO = "avnadmin";
     private static final String CLAVE = "AVNS_7HDn1mf6DN66-Am2Fh-";
 
