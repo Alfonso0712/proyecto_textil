@@ -10,7 +10,7 @@ import java.sql.SQLException;
  */
 public class ConexionDB {
 
-    private static final String URL    = "jdbc:mysql:mysql://avnadmin:AVNS_7HDn1mf6DN66-Am2Fh-@mysql-20b5e879-gabriellozano176-4915.l.aivencloud.com:13428/defaultdb?ssl-mode=REQUIRED";
+    private static final String URL    = "jdbc:mysql://avnadmin:AVNS_7HDn1mf6DN66-Am2Fh-@mysql-20b5e879-gabriellozano176-4915.l.aivencloud.com:13428/defaultdb?ssl-mode=REQUIRED";
     private static final String USUARIO = "avnadmin";       // Cambia por tu usuario MySQL
     private static final String CLAVE   = "AVNS_7HDn1mf6DN66-Am2Fh-";   // Cambia por tu contraseña MySQL
 
